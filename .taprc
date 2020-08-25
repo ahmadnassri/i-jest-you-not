@@ -1,0 +1,6 @@
+color: true
+coverage: false
+jsx: false
+node-arg:
+  - --require=@babel/register
+  - --require=jsdom-global/register

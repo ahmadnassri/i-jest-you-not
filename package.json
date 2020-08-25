@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "tap",
+    "test:snapshot": "tap --snapshot",
+    "test:watch": "tap --watch",
+    "test:100": "tap --100 --coverage-report=lcov --no-browser"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.5",
+    "@testing-library/react": "^10.4.9",
+    "jsdom": "^16.4.0",
+    "jsdom-global": "^3.0.2",
+    "react-dom": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "sinon": "^9.0.3",
+    "tap": "^14.10.8"
+  }
+}
