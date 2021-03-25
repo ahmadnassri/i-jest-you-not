@@ -1,10 +1,11 @@
 {
   "type": "module",
   "scripts": {
-    "test": "tap",
-    "test:snapshot": "tap --snapshot",
-    "test:watch": "tap --watch",
-    "test:100": "tap --100 --coverage-report=lcov --no-browser"
+    "test": "tap test --no-coverage",
+    "test:snapshot": "tap test --snapshot --no-coverage",
+    "test:watch": "tap test --watch",
+    "test:100": "tap --100",
+    "test:report": "opener coverage/lcov-report/index.html"
   },
   "devDependencies": {
     "@babel/core": "^7.11.4",

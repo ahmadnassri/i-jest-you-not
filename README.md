@@ -2,6 +2,21 @@
 
 Keeping things simple and lean
 
+## Usage
+
+### Creating Snapshots
+
+- `npm run test:snapshot` to generate new snapshots!
+### Testing
+
+- `npm run test` for a regular test
+- `npm run test:watch` watch your project for changes to test files and the program files that they cover
+
+### Coverage
+
+- `npm run test:100` for a test with code coverage
+- `npm run test:report` to see the open coverage report in a browser window
+
 ## Why not Jest?
 
 There are various problems with Jest:

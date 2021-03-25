@@ -1,6 +1,11 @@
-color: true
-coverage: false
+esm: true
+ts: false
 jsx: false
+flow: false
+coverage: true
+browser: false
+color: true
+coverage-report: html
 node-arg:
   - --require=@babel/register
   - --require=jsdom-global/register
