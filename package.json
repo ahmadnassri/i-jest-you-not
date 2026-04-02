@@ -13,11 +13,11 @@
     "@babel/preset-react": "^7.10.4",
     "@babel/register": "^7.10.5",
     "@testing-library/react": "^10.4.9",
-    "jsdom": "^16.4.0",
+    "jsdom": "^16.7.0",
     "jsdom-global": "^3.0.2",
     "react-dom": "^16.13.1",
     "react-test-renderer": "^16.13.1",
     "sinon": "^9.0.3",
-    "tap": "^14.10.8"
+    "tap": "^21.6.2"
   }
 }
